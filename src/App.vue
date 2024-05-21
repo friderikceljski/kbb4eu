@@ -4,18 +4,19 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <nav>
+    <nav class="p-5 bg-gradient-to-r from-cerise to-pacific">
+      <div class="flex justify-between">
+        <img :src="'white-kbb4eu-logo.png'" alt="Beli logotip kampanje Katje Berk Bevc" class="w-20">
+        <img src="@/assets/burger-menu.svg" class="w-10 lg:hidden">
+      </div>
+      <div class="hidden lg:block">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
