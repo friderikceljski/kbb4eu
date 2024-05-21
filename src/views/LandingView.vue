@@ -1,8 +1,13 @@
 <script setup>
+import { computed } from 'vue';
+
+const bgImageStyle = computed(() => ({
+  backgroundImage: "url('src/assets/kbb3.jpg')"
+}))
 </script>
 
 <template>
-  <main>
-    <h1 class="text-2xl text-green-700">This is a landing view</h1>
+  <main class="">
+    <div class="bg-cover bg-center h-screen bg-red-600" :style="bgImageStyle"></div>
   </main>
 </template>
