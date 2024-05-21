@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <nav class="p-5 bg-gradient-to-r from-cerise to-pacific">
+    <nav class="p-5 bg-gradient-to-r from-cerise to-pacific fixed bottom-0 w-full">
       <div class="flex justify-between">
         <img :src="'white-kbb4eu-logo.png'" alt="Beli logotip kampanje Katje Berk Bevc" class="w-20">
         <img src="@/assets/burger-menu.svg" class="w-10 lg:hidden">
