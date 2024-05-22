@@ -6,7 +6,7 @@ import AboutView from './views/AboutView.vue'
 </script>
 
 <template>
-  <header class="p-3 bg-gradient-to-r from-cerise to-pacific fixed bottom-0 w-full sm:relative">
+  <header class="p-3 bg-gradient-to-r from-cerise to-pacific fixed bottom-0 w-full sm:relative z-20">
     <nav class="container mx-auto lg:p-2">
       <div class="flex justify-between">
         <img :src="'white-kbb4eu-logo.png'" alt="Beli logotip kampanje Katje Berk Bevc" class="w-20">
