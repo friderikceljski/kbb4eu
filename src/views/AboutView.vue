@@ -27,4 +27,7 @@
       </div>
     </div>
   </div>
+  <div class="bg-pacific p-6 sm:p-10">
+    <h2 class="text-white font-extrabold text-xl text-center sm:text-3xl">9. junija mi zaupajte svoj glas pod številko 2!</h2>
+  </div>
 </template>
