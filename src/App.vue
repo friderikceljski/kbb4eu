@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 import LandingView from './views/LandingView.vue'
 import AboutView from './views/AboutView.vue'
+import PrinciplesView from './views/PrinciplesView.vue'
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import AboutView from './views/AboutView.vue'
 
   <LandingView />
   <AboutView />
+  <PrinciplesView />
 </template>
 
 <style scoped></style>
