@@ -5,6 +5,7 @@ import LandingView from './views/LandingView.vue'
 import AboutView from './views/AboutView.vue'
 import PrinciplesView from './views/PrinciplesView.vue'
 import FlagView from './views/FlagView.vue'
+import FooterView from './views/FooterView.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import FlagView from './views/FlagView.vue'
   <AboutView />
   <PrinciplesView />
   <FlagView />
+  <FooterView />
 </template>
 
 <style scoped></style>
