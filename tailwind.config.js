@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: '"Montserrat"'
+        sans: '"Montserrat"',
+        cursive: '"Dynalight"'
       },
       colors: {
         cerise: "#D921A6",
