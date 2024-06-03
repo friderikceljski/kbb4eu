@@ -1,8 +1,8 @@
 <template>
 
-    <div class="container bg-cover bg-no-repeat bg-center" :style="bgImageStyle">
+    <div class="container mx-auto bg-cover bg-no-repeat bg-center p-12 md:p-24 md:bg-cover" :style="bgImageStyle">
         <div class="text-center">
-            <h1 class="text-4xl font-extrabold md:text-5xl md:font-bold text-pacific">Kozjansko naj dobi evroposlanko!
+            <h1 class="text-3xl font-extrabold md:text-5xl md:font-bold text-pacific">Kozjansko naj dobi evroposlanko!
             </h1>
             <h2 class="font-cursive text-4xl">Katja Berk Bevc</h2>
             <p>Hvaležna sem našim prednikom in očetom Evrope, da so s krepitvijo sodelovanja med evropskimi državami
