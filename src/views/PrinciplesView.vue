@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="h-screen">
+    <div class="h-screen md:h-auto">
         <div class="flex h-full flex-col md:flex-row md:h-auto">
             <div class="flex-1 flex flex-col justify-center md:justify-start p-4 md:px-7 md:py-14">
                 <h2 class="text-pacific font-extrabold text-4xl">Podeželje.</h2>
